@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        
+        android:maxLines="1" 
+        
+        
+        
+        android:layout_width="fill_parent"
+      
+        android:ems="10" >
+
+        <requestFocus />
+     
+</EditText>
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="108dp"
+        android:layout_height="156dp"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:editable="false" >
+</EditText>
+</RelativeLayout>
